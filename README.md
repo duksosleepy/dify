@@ -19,7 +19,7 @@
     <a href="https://discord.gg/FngNHpbcY7" target="_blank">
         <img src="https://img.shields.io/discord/1082486657678311454?logo=discord&labelColor=%20%235462eb&logoColor=%20%23f5f5f5&color=%20%235462eb"
             alt="chat on Discord"></a>
-    <a href="https://reddit.com/r/difyai" target="_blank">  
+    <a href="https://reddit.com/r/difyai" target="_blank">
         <img src="https://img.shields.io/reddit/subreddit-subscribers/difyai?style=plastic&logo=reddit&label=r%2Fdifyai&labelColor=white"
             alt="join Reddit"></a>
     <a href="https://twitter.com/intent/follow?screen_name=dify_ai" target="_blank">
@@ -72,6 +72,12 @@ cd dify
 cd docker
 cp .env.example .env
 docker compose up -d
+```
+
+or
+
+```bash
+rye sync --pyproject api/pyproject.toml
 ```
 
 After running, you can access the Dify dashboard in your browser at [http://localhost/install](http://localhost/install) and start the initialization process.
